@@ -2,7 +2,7 @@ site_name: lab.mj
 
 site_description: Sovereign Knowledge Laboratory
 
-site_author: MJ Ahmad 
+site_author: MJ Ahmad
 
 repo_url: https://github.com/MJ-Ahmad/mjdocs.git
 
@@ -14,7 +14,6 @@ theme:
   name: material
   custom_dir: overrides
 
-
   logo: assets/logo.svg
 
   favicon: assets/favicon.png
@@ -22,22 +21,14 @@ theme:
   language: en
 
   features:
-
     - navigation.instant
     - navigation.instant.progress
-
     - navigation.tabs
-
     - navigation.tabs.sticky
-
     - navigation.sections
-
     - navigation.expand
-
     - navigation.tracking
-
     - navigation.indexes
-
     - navigation.top
 
     - toc.follow
@@ -47,53 +38,34 @@ theme:
     - search.share
 
     - content.code.copy
-
     - content.code.annotate
-
     - content.tabs.link
-
     - content.tooltips
 
     - announce.dismiss
 
   palette:
-
     - media: "(prefers-color-scheme: light)"
-
       scheme: default
-
       primary: indigo
-
       accent: blue
-
       toggle:
-
         icon: material/weather-night
-
         name: Dark mode
 
     - media: "(prefers-color-scheme: dark)"
-
       scheme: slate
-
       primary: black
-
       accent: cyan
-
       toggle:
-
         icon: material/weather-sunny
-
         name: Light mode
 
 font:
-
   text: Inter
-
   code: JetBrains Mono
 
 plugins:
-
   - search
 
   - awesome-pages
@@ -116,7 +88,6 @@ plugins:
       minify_html: true
 
 markdown_extensions:
-
   - admonition
 
   - attr_list
@@ -160,9 +131,7 @@ markdown_extensions:
       permalink: true
 
 extra:
-
   social:
-
     - icon: fontawesome/brands/github
       link: https://github.com
 
@@ -170,204 +139,130 @@ extra:
       link: https://twitter.com
 
 extra_css:
-
   - stylesheets/extra.css
 
 extra_javascript:
   - js/pwa.js
 
-
 nav:
 
-  - Home:
-      - Overview: index.md
-
-  - Identity:
-
-      - Overview: identity/index.md
-
-      - Manifest:
-          - identity/manifest/index.md
-
-      - DID:
-          - identity/did/index.md
-
-      - CID:
-          - identity/cid/index.md
-
-      - Guardians:
-          - identity/guardians/index.md
-
-      - Credentials:
-          - identity/credentials/index.md
-
-  - Governance:
-
-      - Overview: governance/index.md
-
-      - Constitution:
-          - governance/constitution/index.md
-
-      - Policies:
-          - governance/policies/index.md
-
-      - Proposals:
-          - governance/proposals/index.md
-
-      - Voting:
-          - governance/voting/index.md
-
-      - Audits:
-          - governance/audits/index.md
-
-  - Projects:
-
-      - Overview: projects/index.md
-
-      - Quraner Fariwala:
-
-          - Overview:
-              - projects/quraner_fariwala/index.md
-
-          - UQNS:
-              - projects/quraner_fariwala/uqns/index.md
-
-          - QKG:
-              - projects/quraner_fariwala/qkg/index.md
-
-          - QRS:
-              - projects/quraner_fariwala/qrs/index.md
-
-          - QLS:
-              - projects/quraner_fariwala/qls/index.md
-
-          - QAI:
-              - projects/quraner_fariwala/qai/index.md
-
-          - QDS:
-              - projects/quraner_fariwala/qds/index.md
-
-          - QIP:
-              - projects/quraner_fariwala/qip/index.md
-
-      - Project Docs:
-          - projects/project_docs/index.md
-
-      - Nijer Khata:
-
-          - Overview:
-              - projects/nijer_khata/index.md
-
-          - Learning Hub:
-              - projects/nijer_khata/learning_hub/index.md
-
-          - Ledger:
-              - projects/nijer_khata/ledger/index.md
-
-          - Health:
-              - projects/nijer_khata/health/index.md
-
-          - Work:
-              - projects/nijer_khata/work/index.md
-
-          - Reflections:
-              - projects/nijer_khata/reflections/index.md
-
-  - Knowledge:
-
-      - Overview: knowledge/index.md
-
-      - Ontology:
-          - knowledge/ontology/index.md
-
-      - Graph:
-          - knowledge/graph/index.md
-
-      - Vector:
-          - knowledge/vector/index.md
-
-      - Datasets:
-          - knowledge/datasets/index.md
-
-      - Taxonomies:
-          - knowledge/taxonomies/index.md
-
-  - Documentation:
-
-      - Overview: docs_system/index.md
-
-      - MkDocs:
-          - docs_system/mkdocs/index.md
-
-      - GitBook:
-          - docs_system/gitbook/index.md
-
-      - Architecture:
-          - docs_system/architecture/index.md
-
-      - Manuals:
-          - docs_system/manuals/index.md
-
-  - AI:
-
-      - Overview: ai/index.md
-
-      - LLM:
-          - ai/llm/index.md
-
-      - RAG:
-          - ai/rag/index.md
-
-      - Embeddings:
-          - ai/embeddings/index.md
-
-      - Agents:
-          - ai/agents/index.md
-
-  - IPFS:
-
-      - Overview: ipfs/index.md
-
-      - Manifests:
-          - ipfs/manifests/index.md
-
-      - Archives:
-          - ipfs/archives/index.md
-
-      - Releases:
-          - ipfs/releases/index.md
-
-      - Snapshots:
-          - ipfs/snapshots/index.md
-
-  - Archive:
-
-      - Overview: archive/index.md
-
-      - Yearly:
-          - archive/yearly/index.md
-
-      - Releases:
-          - archive/releases/index.md
-
-      - Legacy:
-          - archive/legacy/index.md
-
-  - Infrastructure:
-
-      - Overview: infrastructure/index.md
-
-      - Servers:
-          - infrastructure/servers/index.md
-
-      - Networking:
-          - infrastructure/networking/index.md
-
-      - Storage:
-          - infrastructure/storage/index.md
-
-      - Monitoring:
-          - infrastructure/monitoring/index.md
-
-      - Security:
-          - infrastructure/security/index.md
+  - Home: index.md
+
+  - Core Architecture:
+      - 01-env: 01-env/index.md
+      - 02-aliases: 02-aliases/index.md
+      - 03-core: 03-core/index.md
+      - 04-functions: 04-functions/index.md
+      - 05-git: 05-git/index.md
+      - 06-backup: 06-backup/index.md
+      - 07-audit: 07-audit/index.md
+      - 08-projects: 08-projects/index.md
+      - 09-docs: 09-docs/index.md
+      - 10-security: 10-security/index.md
+      - 11-network: 11-network/index.md
+      - 12-docker: 12-docker/index.md
+      - 13-python: 13-python/index.md
+      - 14-node: 14-node/index.md
+      - 15-dotnet: 15-dotnet/index.md
+      - 16-nethunter: 16-nethunter/index.md
+      - 17-ai: 17-ai/index.md
+      - 18-monitoring: 18-monitoring/index.md
+      - 19-completion: 19-completion/index.md
+      - 20-prompt: 20-prompt/index.md
+
+  - Development Layer:
+      - 21-shell: 21-shell/index.md
+      - 22-filesystem: 22-filesystem/index.md
+      - 23-archives: 23-archives/index.md
+      - 24-search: 24-search/index.md
+      - 25-text-processing: 25-text-processing/index.md
+      - 26-json: 26-json/index.md
+      - 27-yaml: 27-yaml/index.md
+      - 28-xml: 28-xml/index.md
+      - 29-csv: 29-csv/index.md
+      - 30-database: 30-database/index.md
+
+  - Repository & Version Control Layer:
+      - 31-github: 31-github/index.md
+      - 32-gitlab: 32-gitlab/index.md
+      - 33-bitbucket: 33-bitbucket/index.md
+      - 34-release: 34-release/index.md
+      - 35-versioning: 35-versioning/index.md
+      - 36-changelog: 36-changelog/index.md
+      - 37-code-review: 37-code-review/index.md
+      - 38-automation: 38-automation/index.md
+      - 39-ci: 39-ci/index.md
+      - 40-cd: 40-cd/index.md
+
+  - Infrastructure Layer:
+      - 41-linux: 41-linux/index.md
+      - 42-systemd: 42-systemd/index.md
+      - 43-services: 43-services/index.md
+      - 44-processes: 44-processes/index.md
+      - 45-storage: 45-storage/index.md
+      - 46-mounts: 46-mounts/index.md
+      - 47-users: 47-users/index.md
+      - 48-groups: 48-groups/index.md
+      - 49-permissions: 49-permissions/index.md
+      - 50-scheduling: 50-scheduling/index.md
+
+  - Networking Layer:
+      - 51-http: 51-http/index.md
+      - 52-ssh: 52-ssh/index.md
+      - 53-dns: 53-dns/index.md
+      - 54-firewall: 54-firewall/index.md
+      - 55-vpn: 55-vpn/index.md
+      - 56-proxy: 56-proxy/index.md
+      - 57-scanning: 57-scanning/index.md
+      - 58-monitoring-network: 58-monitoring-network/index.md
+      - 59-performance: 59-performance/index.md
+      - 60-troubleshooting: 60-troubleshooting/index.md
+
+  - Development Ecosystem:
+      - 61-java: 61-java/index.md
+      - 62-go: 62-go/index.md
+      - 63-rust: 63-rust/index.md
+      - 64-c: 64-c/index.md
+      - 65-cpp: 65-cpp/index.md
+      - 66-javascript: 66-javascript/index.md
+      - 67-typescript: 67-typescript/index.md
+      - 68-react: 68-react/index.md
+      - 69-angular: 69-angular/index.md
+      - 70-vue: 70-vue/index.md
+
+  - Data & Analytics Layer:
+      - 71-data: 71-data/index.md
+      - 72-analytics: 72-analytics/index.md
+      - 73-reporting: 73-reporting/index.md
+      - 74-visualization: 74-visualization/index.md
+      - 75-ml: 75-ml/index.md
+      - 76-mlnet: 76-mlnet/index.md
+      - 77-ai-agents: 77-ai-agents/index.md
+      - 78-automation-ai: 78-automation-ai/index.md
+      - 79-predictions: 79-predictions/index.md
+      - 80-research: 80-research/index.md
+
+  - Documentation & Knowledge Layer:
+      - 81-readme: 81-readme/index.md
+      - 82-markdown: 82-markdown/index.md
+      - 83-export: 83-export/index.md
+      - 84-pdf: 84-pdf/index.md
+      - 85-docx: 85-docx/index.md
+      - 86-slides: 86-slides/index.md
+      - 87-diagrams: 87-diagrams/index.md
+      - 88-knowledgebase: 88-knowledgebase/index.md
+      - 89-wiki: 89-wiki/index.md
+      - 90-training: 90-training/index.md
+
+  - Organization Specific Layer:
+      - 91-Foundational_Documents: 91-Foundational_Documents/index.md
+      - 92-Governance-and-Roles: 92-Governance-and-Roles/index.md
+      - 93-Token-and-Treasury: 93-Token-and-Treasury/index.md
+      - 94-Security-and-Community: 94-Security-and-Community/index.md
+      - 95-Contract-Modules: 95-Contract-Modules/index.md
+      - 96-Action-Modules: 96-Action-Modules/index.md
+      - 97-QuranerFariwala: 97-QuranerFariwala/index.md
+      - 98-UQNS: 98-UQNS/index.md
+
+  - Local Sandbox:
+      - 99-local: 99-local/index.md
