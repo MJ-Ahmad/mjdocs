@@ -2,18 +2,18 @@ site_name: lab.mj
 
 site_description: Sovereign Knowledge Laboratory
 
-site_author: lab.mj
+site_author: MJ Ahmad 
 
-site_url: https://lab-mj.readthedocs.io
+repo_url: https://github.com/MJ-Ahmad/mjdocs.git
 
-repo_url: https://github.com/lab-mj/lab-mj
+repo_name: mjdocs
 
-repo_name: lab.mj
-
-copyright: Copyright © lab.mj
+copyright: Copyright © mjdocs
 
 theme:
   name: material
+  custom_dir: overrides
+
 
   logo: assets/logo.svg
 
@@ -172,6 +172,10 @@ extra:
 extra_css:
 
   - stylesheets/extra.css
+
+extra_javascript:
+  - js/pwa.js
+
 
 nav:
 
