@@ -1,475 +1,512 @@
+---
+hide:
+  - toc
+---
+
 # Sovereign Knowledge Laboratory
 
-> Building a Sovereign Knowledge Operating System for Infrastructure, Development, Documentation, Governance, AI, and Organizational Intelligence.
+> **A Sovereign Knowledge Operating System (KOS)**
+>
+> Infrastructure • Development • AI • Knowledge • Governance • Organizational Intelligence
 
 ---
 
 ## Mission
 
-The purpose of this laboratory is not merely to store documents.
+Sovereign Knowledge Laboratory exists to transform fragmented experience, documentation, code, infrastructure, governance, and research into a unified, searchable, auditable, and continuously improving knowledge system.
 
-The purpose is to create a **living knowledge system** where:
+This platform serves as:
 
-- Knowledge becomes structured
-- Documentation becomes operational
-- Operations become reproducible
-- Governance becomes transparent
-- AI becomes contextual
-- Decisions become auditable
-- Experience becomes institutional memory
-
----
-
-## System Status
-
-| Domain | Status |
-|----------|----------|
-| Core Architecture | ✅ Active |
-| Development Layer | ✅ Active |
-| Infrastructure Layer | ✅ Active |
-| Networking Layer | ✅ Active |
-| Data & Analytics | ✅ Active |
-| Documentation Layer | ✅ Active |
-| AI Layer | ✅ Active |
-| Governance Layer | ✅ Active |
-| Organizational Modules | ✅ Active |
-| Local Sandbox | ✅ Experimental |
+- Knowledge Operating System
+- Documentation Hub
+- Engineering Handbook
+- Infrastructure Runbook
+- AI Operations Platform
+- Governance Repository
+- Organizational Memory System
 
 ---
 
-## Knowledge Operating System
+<div class="hero-banner">
+
+### Knowledge → Systems → Intelligence
+
+Build once. Document forever.
+
+Learn → Document → Standardize → Automate → Audit → Improve
+
+</div>
+
+---
+
+## Executive Dashboard
+
+| Capability | Status |
+|------------|---------|
+| Core Architecture | 🟢 Operational |
+| Development Platform | 🟢 Operational |
+| Infrastructure | 🟢 Operational |
+| Networking | 🟢 Operational |
+| Documentation | 🟢 Operational |
+| Data & Analytics | 🟢 Operational |
+| AI Platform | 🟡 Expanding |
+| Knowledge Graph | 🟡 Growing |
+| Governance | 🟢 Operational |
+| Organizational Intelligence | 🟢 Operational |
+
+---
+
+## System Operating Model
 
 ```mermaid
-flowchart TD
+flowchart LR
 
-    Vision[Mission & Vision]
+    V[Vision]
 
-    Vision --> Core
-    Core --> Development
-    Development --> Repository
-    Repository --> Infrastructure
+    G[Governance]
 
-    Infrastructure --> Networking
-    Networking --> Ecosystem
+    K[Knowledge]
 
-    Ecosystem --> Data
-    Data --> Knowledge
+    O[Operations]
 
-    Knowledge --> Organization
+    A[Automation]
 
-    Organization --> Sandbox
+    AI[AI Intelligence]
 
-    Sandbox --> Improvement
+    V --> G
 
-    Improvement --> Vision
+    G --> K
+
+    K --> O
+
+    O --> A
+
+    A --> AI
+
+    AI --> K
 ```
 
 ---
 
-## Architecture Overview
+## Architecture Pyramid
 
-### Core Architecture (01-20)
+```mermaid
+flowchart BT
 
-The foundational operating layer.
+    L1[99 Local Sandbox]
 
-Responsible for:
+    L2[91-98 Organization]
 
-- Environment Initialization
-- Shell Configuration
-- Core Automation
-- Security Baseline
-- Backup Systems
-- Audit Framework
-- Documentation Standards
-- AI Foundations
-- Monitoring
-- Operational Prompts
+    L3[81-90 Documentation & Knowledge]
 
-**Entry Point**
+    L4[71-80 Data & Analytics]
 
-➡ 01-env
+    L5[61-70 Development Ecosystem]
 
----
+    L6[51-60 Networking]
 
-### Development Layer (21-30)
+    L7[41-50 Infrastructure]
 
-Tools required for productive engineering.
+    L8[31-40 Repository Control]
 
-Focus Areas:
+    L9[21-30 Development Layer]
 
-- Shell
-- Filesystem
-- Search
-- Archives
-- Text Processing
-- Structured Data Formats
-- Databases
+    L10[01-20 Core Architecture]
 
-**Entry Point**
-
-➡ 21-shell
+    L1 --> L2
+    L2 --> L3
+    L3 --> L4
+    L4 --> L5
+    L5 --> L6
+    L6 --> L7
+    L7 --> L8
+    L8 --> L9
+    L9 --> L10
+```
 
 ---
 
-### Repository & Version Control (31-40)
+# Domain Navigator
 
-Single source of truth.
+<div class="grid cards" markdown>
 
-Covers:
+- :material-cog-outline:
 
-- GitHub
-- GitLab
-- Bitbucket
-- Changelogs
-- Versioning
-- CI/CD
-- Release Management
-- Automation
+    ## Core Architecture
 
-**Entry Point**
+    Foundation of the platform.
 
-➡ 31-github
+    Environment, functions, backup,
+    security, monitoring, AI foundations.
 
----
+    **Entry Point:** `01-env`
 
-### Infrastructure Layer (41-50)
+- :material-console:
 
-Infrastructure-as-Knowledge.
+    ## Development Layer
 
-Includes:
+    Essential engineering tools.
 
-- Linux
-- Services
-- Systemd
-- Storage
-- Scheduling
-- Processes
-- User Management
-- Permissions
+    Shell, filesystem, archives,
+    search, processing, databases.
 
-**Entry Point**
+    **Entry Point:** `21-shell`
 
-➡ 41-linux
+- :material-source-branch:
 
----
+    ## Repository Layer
 
-### Networking Layer (51-60)
+    Version-controlled operations.
 
-Connectivity and communication systems.
+    GitHub, GitLab, Releases,
+    CI/CD, changelog, automation.
 
-Includes:
+    **Entry Point:** `31-github`
 
-- HTTP
-- DNS
-- SSH
-- VPN
-- Proxy
-- Firewall
-- Performance
-- Troubleshooting
+- :material-server:
 
-**Entry Point**
+    ## Infrastructure Layer
 
-➡ 51-http
+    Systems administration.
 
----
+    Linux, services, users,
+    processes, storage, scheduling.
 
-### Development Ecosystem (61-70)
+    **Entry Point:** `41-linux`
 
-Programming platforms and frameworks.
+</div>
 
-Languages:
+<div class="grid cards" markdown>
 
-- Java
-- Go
-- Rust
-- C
-- C++
-- JavaScript
-- TypeScript
+- :material-lan:
 
-Frameworks:
+    ## Networking Layer
 
-- React
-- Angular
-- Vue
+    Communication and security.
 
-**Entry Point**
+    HTTP, DNS, SSH,
+    VPN, proxy, firewall.
 
-➡ 66-javascript
+    **Entry Point:** `51-http`
 
----
+- :material-code-tags:
 
-### Data & Analytics (71-80)
+    ## Development Ecosystem
 
-Building intelligence from information.
+    Programming environments.
 
-Includes:
+    Java, Go, Rust,
+    JavaScript, TypeScript.
 
-- Data Engineering
-- Analytics
-- Reporting
-- Visualization
-- Machine Learning
-- ML.NET
-- AI Agents
-- AI Automation
-- Research
+    **Entry Point:** `61-java`
 
-**Entry Point**
+- :material-microsoft-dot-net:
 
-➡ 71-data
+    ## .NET Platform
 
----
+    Microsoft ecosystem.
 
-### Documentation & Knowledge (81-90)
+    .NET, ASP.NET Core,
+    Entity Framework,
+    ML.NET, Azure-ready services.
 
-The organizational memory layer.
+    **Entry Point:** `15-dotnet`
 
-Includes:
+- :material-database:
 
-- READMEs
-- Markdown Standards
-- PDF Generation
-- DOCX Generation
-- Slide Systems
-- Diagrams
-- Knowledge Bases
-- Training Systems
+    ## Data & Analytics
 
-**Entry Point**
+    Insights and intelligence.
 
-➡ 81-readme
+    Data, analytics,
+    reporting, ML, automation.
 
----
+    **Entry Point:** `71-data`
 
-### Organization-Specific Layer (91-98)
+</div>
 
-Operational Knowledge.
+<div class="grid cards" markdown>
 
-Contains:
+- :material-robot-outline:
 
-- Foundational Documents
-- Governance Models
-- Treasury Models
-- Security Procedures
-- Contract Modules
-- Action Modules
-- QuranerFariwala
-- UQNS
+    ## AI Platform
 
-**Entry Point**
+    Context-Aware Intelligence.
 
-➡ 91-Foundational_Documents
+    LLMs, AI Agents,
+    Automation, Research Systems.
+
+    **Entry Point:** `77-ai-agents`
+
+- :material-book-open-variant:
+
+    ## Documentation System
+
+    Organizational memory.
+
+    Markdown, PDF,
+    DOCX, Slides, Diagrams.
+
+    **Entry Point:** `81-readme`
+
+- :material-bank:
+
+    ## Governance System
+
+    Policies and accountability.
+
+    Roles, Treasury,
+    Security, Contracts.
+
+    **Entry Point:** `91-Foundational_Documents`
+
+- :material-flask-outline:
+
+    ## Sandbox
+
+    Research & experimentation.
+
+    Drafts, prototypes,
+    validation and testing.
+
+    **Entry Point:** `99-local`
+
+</div>
 
 ---
 
-### Local Sandbox (99)
+## Capability Map
 
-Experimental Environment.
+```mermaid
+mindmap
+  root((lab.mj))
 
-Purpose:
+    Core Architecture
+      Environment
+      Core Functions
+      Security
+      Monitoring
+      Backup
 
-- Drafts
-- Prototypes
-- Testing
-- Temporary Research
-- Concept Validation
+    Development
+      Shell
+      Filesystem
+      Search
+      Databases
 
-**Entry Point**
+    Infrastructure
+      Linux
+      Services
+      Storage
+      Processes
 
-➡ 99-local
+    Networking
+      HTTP
+      SSH
+      DNS
+      VPN
+
+    Development Ecosystem
+      DotNet
+      JavaScript
+      Python
+      Node
+
+    Data and AI
+      Analytics
+      ML
+      MLNET
+      AI Agents
+
+    Knowledge
+      Markdown
+      PDF
+      Wiki
+      Slides
+
+    Governance
+      Treasury
+      Security
+      UQNS
+      QuranerFariwala
+```
 
 ---
 
-## Knowledge Hierarchy
+## Knowledge Lifecycle
+
+```mermaid
+flowchart LR
+
+    Learn
+
+    Learn --> Document
+
+    Document --> Validate
+
+    Validate --> Standardize
+
+    Standardize --> Automate
+
+    Automate --> Monitor
+
+    Monitor --> Improve
+
+    Improve --> Learn
+```
+
+---
+
+## Learning Paths
+
+### Engineer
 
 ```text
-Mission
- ├── Architecture
- │
- ├── Operations
- │
- ├── Development
- │
- ├── Infrastructure
- │
- ├── Networking
- │
- ├── Data
- │
- ├── AI
- │
- ├── Documentation
- │
- ├── Governance
- │
- └── Organizational Memory
+01-env
+  ↓
+21-shell
+  ↓
+31-github
+  ↓
+41-linux
+  ↓
+61-java / 66-javascript / 15-dotnet
 ```
 
 ---
 
-## AI Integration Strategy
+### Infrastructure Administrator
 
-The AI layer exists to assist every other layer.
-
-```mermaid
-graph LR
-
-AI[AI Layer]
-
-AI --> Core
-AI --> Development
-AI --> Infrastructure
-AI --> Networking
-AI --> Data
-AI --> Documentation
-AI --> Governance
-AI --> Organization
+```text
+01-env
+  ↓
+10-security
+  ↓
+41-linux
+  ↓
+51-networking
+  ↓
+18-monitoring
 ```
 
-Primary AI Components:
+---
 
-- Prompt Engineering
-- Retrieval Systems
-- Knowledge Graphs
-- Agent Workflows
-- Automation Systems
-- Research Assistants
-- Organizational Intelligence
+### AI & Research
+
+```text
+17-ai
+  ↓
+71-data
+  ↓
+75-ml
+  ↓
+77-ai-agents
+  ↓
+80-research
+```
+
+---
+
+### Documentation Architect
+
+```text
+09-docs
+  ↓
+81-readme
+  ↓
+82-markdown
+  ↓
+87-diagrams
+  ↓
+88-knowledgebase
+```
 
 ---
 
 ## Governance Principles
 
-!!! info "Knowledge First"
+!!! success "Knowledge First"
 
-    Every solved problem becomes documented knowledge.
+    Every solved problem becomes reusable knowledge.
 
-!!! success "Automation First"
+!!! note "Documentation First"
 
-    Every repetitive task should be automated.
+    Knowledge does not exist until documented.
+
+!!! tip "Automation First"
+
+    Repetitive work should become automated systems.
 
 !!! warning "Security First"
 
-    Every change must consider security implications.
+    Security is part of architecture, not an afterthought.
 
-!!! note "Version Everything"
+!!! info "Sovereignty First"
 
-    Knowledge without version history is fragile.
-
-!!! tip "AI Augmented"
-
-    Human judgment remains primary.
-    AI accelerates execution.
+    Knowledge must remain portable, auditable, and independently verifiable.
 
 ---
 
-## Suggested Learning Path
-
-### Beginner
-
-01-env
-
-02-aliases
-
-03-core
-
-05-git
-
-09-docs
-
----
-
-### Intermediate
-
-13-python
-
-17-ai
-
-21-shell
-
-31-github
-
-41-linux
-
-51-ssh
-
----
-
-### Advanced
-
-71-data
-
-75-ml
-
-77-ai-agents
-
-78-automation-ai
-
-91-Governance
-
-97-QuranerFariwala
-
-98-UQNS
-
----
-
-## Operational Lifecycle
-
-```mermaid
-flowchart LR
-
-Learn --> Document
-
-Document --> Standardize
-
-Standardize --> Automate
-
-Automate --> Audit
-
-Audit --> Improve
-
-Improve --> Learn
-```
-
----
-
-## Repository Information
+## Repository Metadata
 
 | Property | Value |
-|------------|---------|
+|----------|--------|
 | Repository | mjdocs |
-| Owner | MJ Ahmad |
+| Maintainer | MJ Ahmad |
 | Platform | MkDocs Material |
-| Architecture | Sovereign Knowledge System |
-| Domain | lab.mj |
-| Documentation Strategy | Knowledge-Driven Development |
-| Versioning Strategy | Git-Based |
+| Architecture | Knowledge Operating System |
+| Documentation Strategy | Docs-as-Code |
 | Governance Model | Documentation First |
+| Knowledge Model | Knowledge Graph Driven |
+| AI Strategy | Human Guided AI |
+| Version Control | Git |
 
 ---
 
-## Current Vision
+## Long-Term Vision
 
-> Create a sovereign, portable, auditable, searchable, AI-enhanced knowledge operating system capable of preserving individual, project, and organizational intelligence across time.
+Create a sovereign, AI-augmented, continuously evolving knowledge operating system capable of preserving and expanding organizational intelligence across generations.
 
 ---
 
-### Start Here
+## Quick Start
 
-➡ New User → **01-env**
+<div class="grid cards" markdown>
 
-➡ Developer → **21-shell**
+- **New Contributor**
+    - Start → `01-env`
 
-➡ System Administrator → **41-linux**
+- **Developer**
+    - Start → `21-shell`
 
-➡ Network Engineer → **51-http**
+- **.NET Engineer**
+    - Start → `15-dotnet`
 
-➡ Data Engineer → **71-data**
+- **System Administrator**
+    - Start → `41-linux`
 
-➡ Technical Writer → **81-readme**
+- **Network Engineer**
+    - Start → `51-http`
 
-➡ Governance Team → **91-Foundational_Documents**
+- **Data Engineer**
+    - Start → `71-data`
 
-➡ Research & AI → **77-ai-agents**
+- **AI Researcher**
+    - Start → `77-ai-agents`
+
+- **Technical Writer**
+    - Start → `81-readme`
+
+</div>
+
+---
+
+> **Knowledge compounds when it is structured.**
+>
+> **Documentation creates continuity.**
+>
+> **Automation scales execution.**
+>
+> **Governance preserves trust.**
+>
+> **AI amplifies intelligence.**
