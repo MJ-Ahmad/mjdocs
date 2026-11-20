@@ -266,3 +266,12 @@ nav:
 
   - Local Sandbox:
       - 99-local: 99-local/index.md
+ 
+   - Help:
+      - Home: help/index.md
+      - git: help/git/index.md
+      - npm: help/npm/index.md
+      - node: help/node/index.md
+      - unpkg: help/unpkg/index.md
+      - scripts:
+          - bashrc: help/bash/index.md
